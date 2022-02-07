@@ -1,0 +1,19 @@
+# More information about the different options can be found here: https://kent-boogaart.com/blog/editorconfig-reference-for-c-developers
+# and here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+# The top-most EditorConfig file
+root = true
+
+[*]
+end_of_line              = crlf
+insert_final_newline     = true
+trim_trailing_whitespace = true
+indent_style             = space
+tab_width                = 4
+
+# Shell scripts
+[*.sh]
+end_of_line = lf
+charset = utf-8
+[*.{cmd,bat,ps,ps1}]
+end_of_line = crlf
+charset = utf-8
