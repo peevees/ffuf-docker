@@ -16,7 +16,7 @@ fi
 set -x
 
 # Scan
-ffuf -w words_and_files_top5000.txt \
+ffuf -w directory-list-2.3-big.txt \
     -u $target \
     -H "X-Scanner: FFUF" \
     -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0" \

@@ -14,8 +14,8 @@ Example targets:
 ```
 git clone git@github.com:onvio/ffuf-docker.git
 cd ffuf-docker
-docker build -t ffuf-docker .
-docker run -v $(pwd)/reports:/var/reports ffuf-docker https://example.org
+docker build -t peevees/ffuf-docker:latest .
+docker run -v $(pwd)/reports:/var/reports peevees/ffuf-docker:latest https://example.org
 ```
 
 ## Outputs
