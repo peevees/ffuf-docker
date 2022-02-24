@@ -3,7 +3,7 @@ Oneliner to run ffuf scan against target URL using a good wordlist
 
 ## Running
 ```
-docker run --rm -v $(pwd)/reports:/var/reports onvio/ffuf-docker https://example.org
+docker run --rm -v ./reports:/var/reports ghcr.io/peevees/ffuf-docker:master https://example.org
 ```
 
 Example targets:
